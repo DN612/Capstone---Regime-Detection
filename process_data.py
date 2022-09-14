@@ -31,7 +31,7 @@ def process_folder(source_folder='Data', target_folder='Data_csv2'):
         file_to_path = target_folder +'/' + file[0:-5] + '.csv'
         data_process(filename, file_to_path)
 
-process_folder()
+# process_folder()
 # for file in os.listdir('Data'):
 #     filename = 'Data/'+file
 #     file_to_path = 'Data_csv2/' + file[0:-5] + '.csv'
